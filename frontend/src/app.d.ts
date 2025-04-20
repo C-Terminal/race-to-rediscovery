@@ -7,6 +7,10 @@ declare global {
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
+		interface Locals {
+			apiBaseUrl: string;
+			// Add any other custom properties you want to use in event.locals
+		}
 	}
 }
 
